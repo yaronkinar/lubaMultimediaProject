@@ -1,8 +1,10 @@
 # luba-project
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
-#dependecies
+first go to https://github.com/yaronkinar/lubaMultimediaProject
+download the project and open it with ide - 
+recommended : https://www.jetbrains.com/webstorm/download/download-thanks.html
+
+
 1) install node js -https://nodejs.org/dist/v4.4.4/node-v4.4.4-x64.msi
 2) install git - https://git-scm.com/download/win
 	a) if git not in the PATH :
@@ -12,7 +14,6 @@ version 0.15.1.
 4) go to the project root , where the package.json open cmd and run "npm install"
 5) go to the project root , where the bower.json open cmd and run "bower install"
 6) to run the project run "grunt serve";
-
 
 
 
