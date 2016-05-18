@@ -1,4 +1,4 @@
-# luba-project
+# multimedia project 
 
 first go to https://github.com/yaronkinar/lubaMultimediaProject
 download the project and open it with ide - 
