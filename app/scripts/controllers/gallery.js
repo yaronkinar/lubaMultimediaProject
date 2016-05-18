@@ -24,7 +24,7 @@ angular.module('lubaProjectApp')
       },
       {
         'type': 'video',
-        'url': 'https://www.youtube.com/embed/IYrtUTbCSvM',
+        'url': 'https://www.youtube.com/embed/IYrtUTbCSvM'
       }
     ];
 
