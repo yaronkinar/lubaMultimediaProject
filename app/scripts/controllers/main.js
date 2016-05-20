@@ -18,5 +18,6 @@ angular.module('lubaProjectApp')
       anchorSmoothScroll.scrollTo(eID);
 
     };
+    $scope.hdrImage = "../images/IMG_0270-HDR.jpg"
 
   });

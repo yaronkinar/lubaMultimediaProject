@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Tangerine">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
+    <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css" />
@@ -46,6 +46,7 @@
 
               <li ng-class="{ active: isActive('/contact') }"><a ng-href="#/">צור קשר</a></li>
               <li ng-class="{ active: isActive('/about') }"><a ng-href="#/about">עלי</a></li>
+              <li ng-class="{ active: isActive('/more') }"><a ng-href="#/more">עוד על צילום</a></li>
               <li ng-class="{ active: isActive('/home') }"><a href="#/home">בית</a></li>
             </ul>
           </div>
@@ -90,8 +91,10 @@
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/gallery.js"></script>
         <script src="scripts/controllers/nav.js"></script>
-
         <script src="scripts/services/anchorsmoothscroll.js"></script>
+
+        <script src="scripts/directives/canvas.js"></script>
+
         <!-- endbuild -->
 </body>
 </html>

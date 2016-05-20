@@ -382,7 +382,7 @@ module.exports = function (grunt) {
             'images/*',
             'views/*',
             'images/*.mp3',
-            'styles/*'
+            //'styles/*'
           ]
         }, {
           expand: true,
@@ -470,7 +470,7 @@ module.exports = function (grunt) {
     'copy:dist',
     //'cssmin',
    // 'uglify',
-   'filerev',
+   //'filerev',
     'usemin'
   ]);
 
