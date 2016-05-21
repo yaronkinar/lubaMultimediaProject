@@ -417,7 +417,20 @@ module.exports = function (grunt) {
         'svgmin'
       ]
     },
+    'string-replace': {
+      dist: {
+        files: {
+          '<%= yeoman.dist %>/': '<%= yeoman.dist %>/**'
 
+        },
+        options: {
+          replacements: [{
+            pattern: "../images/",
+            replacement: "./images/"
+          }]
+        }
+      }
+    },
     // Test settings
     karma: {
       unit: {
@@ -472,6 +485,7 @@ module.exports = function (grunt) {
    //'filerev',
     'usemin'
   ]);
+  grunt.registerTask('replace', ['string-replace']);
 
   grunt.registerTask('default', [
     'newer:jshint',
