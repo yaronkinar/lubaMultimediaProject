@@ -27,11 +27,7 @@ angular.module('lubaProjectApp')
           }
         }
 
-        scope.$watch('img', function(newValue) {
-          if (newValue) {
-            make_base1();
-          }
-        });
+        
       }
     };
   });

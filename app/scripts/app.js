@@ -29,8 +29,13 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
-      }).when('/more', {
+      })
+      .when('/more', {
         templateUrl: 'views/more.html'
+
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html'
 
       })
       .when('/about', {

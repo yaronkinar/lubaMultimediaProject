@@ -19,5 +19,5 @@ angular.module('lubaProjectApp')
 
       };
     $scope.hdrImage = "../images/IMG_0270-HDR.jpg"
-
+    
   });
