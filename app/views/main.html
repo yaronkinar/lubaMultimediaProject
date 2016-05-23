@@ -1,55 +1,63 @@
-  <p></p>
-  <h1>כיצד מצלמים בטכניקת HDR?</h1>
+<p></p>
+<h1>כיצד מצלמים בטכניקת HDR?</h1>
 
-  <ul>
-    <li><a ng-click="gotoElement('gear')">המצרכים הנדרשים</a></li>
-    <li><a ng-click="gotoElement('software')">תוכנה</a></li>
-    <li><a ng-click="gotoElement('howTo')">איך מצלמים בשיטת HDR</a></li>
-    <li><a ng-click="gotoElement('howLook')">איך זה נראה דרך המצלמה</a></li>
+<ul>
+  <li><a ng-click="gotoElement('gear')">המצרכים הנדרשים</a></li>
+  <li><a ng-click="gotoElement('software')">תוכנה</a></li>
+  <li><a ng-click="gotoElement('howTo')">איך מצלמים בשיטת HDR</a></li>
+  <li><a ng-click="gotoElement('howLook')">איך זה נראה דרך המצלמה</a></li>
 
-  </ul>
-  <p>התוצאה הסופית</p>
-  <img src="{{hdrImage}}" alt="מקדש האמת בתאילנד">
+</ul>
+<p>התוצאה הסופית</p>
+<img src="{{hdrImage}}" alt="מקדש האמת בתאילנד">
 
-  <h2 id="gear">המצרכים הנדרשים</h2>
+<h2 id="gear">המצרכים הנדרשים</h2>
 
-  <h4>מצלמה</h4>
-  <p> המצלמה שלכם צריכה לאפשר צילום מדורג אוטומטי. המונח האנגלי נקרא bracketing. המרווח בין החשיפות השונות צריך להיות 2EV.
-
-  </p>
-  <h4 id="software"> תוכנה</h4>
-  <p> הטריק הוא לאחד את החשיפות המרובות לתמונה אחת ובשביל זה נצטרך תוכנת פוטושופ, לדוג'.
-
-  </p>
-  <h2 id="howTo">איך מצלמים בשיטת HDR</h2>
 <h4>מצלמה</h4>
-  <p> מוצאים את המקום והזמן ומתארגנים לצילום רגיל.
+<p> המצלמה שלכם צריכה לאפשר צילום מדורג אוטומטי. המונח האנגלי נקרא bracketing. המרווח בין החשיפות השונות צריך להיות 2EV.
+
+</p>
+<h4 id="software"> תוכנה</h4>
+<p> הטריק הוא לאחד את החשיפות המרובות לתמונה אחת ובשביל זה נצטרך תוכנת פוטושופ, לדוג'.
+
+</p>
+<h2 id="howTo">איך מצלמים בשיטת HDR</h2>
+<h4>מצלמה</h4>
+<p> מוצאים את המקום והזמן ומתארגנים לצילום רגיל.
 
 
-    נעביר את המצלמה לצלם במצב  bracketing של 3 תמונות עם מרווח של 2 EV בין כל חשיפה. זה בעצם אומר למצלמה שנצלם 3 תמונות ובכל אחת מהן נבחר רמות חשיפה ופיצוי שונות כדי ליצור תמונה "רגילה", חשוכה ומוארת.
+  נעביר את המצלמה לצלם במצב bracketing של 3 תמונות עם מרווח של 2 EV בין כל חשיפה. זה בעצם אומר למצלמה שנצלם 3 תמונות
+  ובכל אחת מהן נבחר רמות חשיפה ופיצוי שונות כדי ליצור תמונה "רגילה", חשוכה ומוארת.
 
-    נוודא שאנו על ISO נמוך, כלומר לא יותר מ200.
+  נוודא שאנו על ISO נמוך, כלומר לא יותר מ200.
 
-    היות שאנו עומדים לצלם 3 תמונות, רצוי להקפיד שאין עצמים שזזים בפריים שלכם. עצמים שיזוזו ייראו מטושטשים בתוצאה הסופית וזאת למרות שאפשר לסדר את זה אח"כ בפוטושופ זה די מעיק ומסורבל.
+  היות שאנו עומדים לצלם 3 תמונות, רצוי להקפיד שאין עצמים שזזים בפריים שלכם. עצמים שיזוזו ייראו מטושטשים בתוצאה הסופית
+  וזאת למרות שאפשר לסדר את זה אח"כ בפוטושופ זה די מעיק ומסורבל.
 
-    הנה שלוש התמונות ששימשו כחומר הגלם של התמונה שלעיל
+  הנה שלוש התמונות ששימשו כחומר הגלם של התמונה שלעיל
 
 
-  </p>
+</p>
 
-  <h4 id="howLook">איך זה נראה דרך המצלמה</h4>
+<h4 id="howLook">איך זה נראה דרך המצלמה</h4>
 
-  <imagecanvasdirective img="../images/brackting.gif"></imagecanvasdirective>
-  <img src="../images/output_owWPTp.gif"  class="img-thumbnail">
- <h4>שלוש התמונות ששימשו כחומר הגלם של התמונה שלעיל</h4>
+<imagecanvasdirective img="../images/brackting.gif"></imagecanvasdirective>
+<img src="../images/output_owWPTp.gif" class="img-thumbnail">
+<h4>שלוש התמונות ששימשו כחומר הגלם של התמונה שלעיל</h4>
 
-  <ul ng-controller="GalleryCtrl">
-    <li ng-repeat="image in images">
-      <a ng-click="openLightboxModal($index)">
-        <img ng-src="{{image.thumbUrl}}" class="img-thumbnail">
-      </a>
-    </li>
-  </ul>
+<ul ng-controller="GalleryCtrl">
+  <li ng-repeat="image in images">
+    <a ng-click="openLightboxModal($index)">
+      <img uib-tooltip="לחץ כאן" ng-src="{{image.thumbUrl}}" class="img-thumbnail">
+    </a>
+  </li>
+</ul>
+<h4 id="guide">מדריך HDR מצולם </h4>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IYrtUTbCSvM" frameborder="0"
+          allowfullscreen></iframe>
+
+</div>
 
 
 
