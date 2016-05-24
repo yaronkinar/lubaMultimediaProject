@@ -2,7 +2,13 @@
 
 -first go to https://github.com/yaronkinar/lubaMultimediaProject
 -download the project and open it with ide: 
-    *  recommended : https://www.jetbrains.com/webstorm/download/download-thanks.html
+    * recommended : https://www.jetbrains.com/webstorm/download/download-thanks.html
+    
+ -open webstorm -  VCS - checkout from version controls - github 
+  
+  -GIT Repository url : https://github.com/yaronkinar/lubaMultimediaProject.git
+  
+ - directory as you with 
 
 
 1. install node js -https://nodejs.org/dist/v4.4.4/node-v4.4.4-x64.msi
