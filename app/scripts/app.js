@@ -26,9 +26,9 @@ angular
         controllerAs: 'main'
       })
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl',
+        controllerAs: 'about'
       })
       .when('/more', {
         templateUrl: 'views/more.html'
@@ -44,7 +44,7 @@ angular
         controllerAs: 'about'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/home'
       });
   }).config(function (LightboxProvider) {
   LightboxProvider.fullScreenMode = true;

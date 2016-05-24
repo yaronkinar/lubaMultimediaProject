@@ -9,7 +9,7 @@
 angular.module('lubaProjectApp')
   .directive('imagecanvasdirective', function ($rootScope,$templateRequest,$compile) {
     return {
-      template: "<canvas id='image' class='img-thumbnail' width='250' height='167'/>",
+      template: "<canvas id='image' class='img-thumbnail canvasImg pull-right col-lg-pull-4' width='250' height='167'/>",
       restrict: 'E',
       scope:true,
       link: function postLink(scope, element, attrs) {
@@ -27,7 +27,7 @@ angular.module('lubaProjectApp')
           }
         }
 
-        
+
       }
     };
   });
