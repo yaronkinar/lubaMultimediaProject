@@ -30,3 +30,7 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+##deploy
+
+go to https://www.youtube.com/watch?v=oAx2sv9OyhE
