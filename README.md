@@ -4,9 +4,9 @@
 -download the project and open it with ide: 
     * recommended : https://www.jetbrains.com/webstorm/download/download-thanks.html
     
- -open webstorm -  VCS - checkout from version controls - github 
+ - open webstorm -  VCS > checkout from version controls - github 
   
-  -GIT Repository url : https://github.com/yaronkinar/lubaMultimediaProject.git
+ - GIT Repository url : https://github.com/yaronkinar/lubaMultimediaProject.git
   
  - directory as you with 
 
